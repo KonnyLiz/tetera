@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/konny/ogl/tetera/main.cpp" "/home/konny/ogl/tetera/build/CMakeFiles/tetera.dir/main.cpp.o"
+  "/home/konny/git/tetera/main.cpp" "/home/konny/git/tetera/build/CMakeFiles/tetera.dir/main.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

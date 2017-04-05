@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/konny/ogl/tetera/main.cpp
+/home/konny/git/tetera/main.cpp
 GL/glu.h
 -
 GL/glut.h

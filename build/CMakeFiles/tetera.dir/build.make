@@ -35,10 +35,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/konny/ogl/tetera
+CMAKE_SOURCE_DIR = /home/konny/git/tetera
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/konny/ogl/tetera/build
+CMAKE_BINARY_DIR = /home/konny/git/tetera/build
 
 # Include any dependencies generated for this target.
 include CMakeFiles/tetera.dir/depend.make
@@ -51,17 +51,17 @@ include CMakeFiles/tetera.dir/flags.make
 
 CMakeFiles/tetera.dir/main.cpp.o: CMakeFiles/tetera.dir/flags.make
 CMakeFiles/tetera.dir/main.cpp.o: ../main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/konny/ogl/tetera/build/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/konny/git/tetera/build/CMakeFiles $(CMAKE_PROGRESS_1)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/tetera.dir/main.cpp.o"
-	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tetera.dir/main.cpp.o -c /home/konny/ogl/tetera/main.cpp
+	/usr/bin/c++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/tetera.dir/main.cpp.o -c /home/konny/git/tetera/main.cpp
 
 CMakeFiles/tetera.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tetera.dir/main.cpp.i"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/konny/ogl/tetera/main.cpp > CMakeFiles/tetera.dir/main.cpp.i
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/konny/git/tetera/main.cpp > CMakeFiles/tetera.dir/main.cpp.i
 
 CMakeFiles/tetera.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tetera.dir/main.cpp.s"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/konny/ogl/tetera/main.cpp -o CMakeFiles/tetera.dir/main.cpp.s
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/konny/git/tetera/main.cpp -o CMakeFiles/tetera.dir/main.cpp.s
 
 CMakeFiles/tetera.dir/main.cpp.o.requires:
 .PHONY : CMakeFiles/tetera.dir/main.cpp.o.requires
@@ -106,6 +106,6 @@ CMakeFiles/tetera.dir/clean:
 .PHONY : CMakeFiles/tetera.dir/clean
 
 CMakeFiles/tetera.dir/depend:
-	cd /home/konny/ogl/tetera/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/konny/ogl/tetera /home/konny/ogl/tetera /home/konny/ogl/tetera/build /home/konny/ogl/tetera/build /home/konny/ogl/tetera/build/CMakeFiles/tetera.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/konny/git/tetera/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/konny/git/tetera /home/konny/git/tetera /home/konny/git/tetera/build /home/konny/git/tetera/build /home/konny/git/tetera/build/CMakeFiles/tetera.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/tetera.dir/depend
 

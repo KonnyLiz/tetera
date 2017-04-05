@@ -1,4 +1,4 @@
-# Install script for directory: /home/konny/ogl/tetera
+# Install script for directory: /home/konny/git/tetera
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ else()
   set(CMAKE_INSTALL_MANIFEST "install_manifest.txt")
 endif()
 
-file(WRITE "/home/konny/ogl/tetera/build/${CMAKE_INSTALL_MANIFEST}" "")
+file(WRITE "/home/konny/git/tetera/build/${CMAKE_INSTALL_MANIFEST}" "")
 foreach(file ${CMAKE_INSTALL_MANIFEST_FILES})
-  file(APPEND "/home/konny/ogl/tetera/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
+  file(APPEND "/home/konny/git/tetera/build/${CMAKE_INSTALL_MANIFEST}" "${file}\n")
 endforeach()

@@ -1,1 +1,1 @@
-/home/konny/ogl/tetera/build/CMakeFiles/tetera.dir
+/home/konny/git/tetera/build/CMakeFiles/tetera.dir
